@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3632EC29CCE947004E01C5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3632EB29CCE947004E01C5 /* ProfileViewController.swift */; };
 		AAD6F35029CCC2D3002876BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6F34F29CCC2D3002876BC /* AppDelegate.swift */; };
 		AAD6F35229CCC2D3002876BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6F35129CCC2D3002876BC /* SceneDelegate.swift */; };
 		AAD6F35429CCC2D3002876BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6F35329CCC2D3002876BC /* ViewController.swift */; };
 		AAD6F35729CCC2D3002876BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD6F35529CCC2D3002876BC /* Main.storyboard */; };
 		AAD6F35929CCC2D5002876BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD6F35829CCC2D5002876BC /* Assets.xcassets */; };
 		AAD6F35C29CCC2D5002876BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD6F35A29CCC2D5002876BC /* LaunchScreen.storyboard */; };
+		AAD6F36C29CCDCD2002876BC /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD6F36B29CCDCD2002876BC /* Header.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA3632EB29CCE947004E01C5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AAD6F34C29CCC2D3002876BC /* proto-imagegrid-stackview-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "proto-imagegrid-stackview-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD6F34F29CCC2D3002876BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD6F35129CCC2D3002876BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		AAD6F35829CCC2D5002876BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD6F35B29CCC2D5002876BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD6F35D29CCC2D5002876BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD6F36B29CCDCD2002876BC /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AAD6F35829CCC2D5002876BC /* Assets.xcassets */,
 				AAD6F35A29CCC2D5002876BC /* LaunchScreen.storyboard */,
 				AAD6F35D29CCC2D5002876BC /* Info.plist */,
+				AAD6F36B29CCDCD2002876BC /* Header.xib */,
+				AA3632EB29CCE947004E01C5 /* ProfileViewController.swift */,
 			);
 			path = "proto-imagegrid-stackview-ios";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD6F36C29CCDCD2002876BC /* Header.xib in Resources */,
 				AAD6F35C29CCC2D5002876BC /* LaunchScreen.storyboard in Resources */,
 				AAD6F35929CCC2D5002876BC /* Assets.xcassets in Resources */,
 				AAD6F35729CCC2D3002876BC /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				AAD6F35429CCC2D3002876BC /* ViewController.swift in Sources */,
 				AAD6F35029CCC2D3002876BC /* AppDelegate.swift in Sources */,
+				AA3632EC29CCE947004E01C5 /* ProfileViewController.swift in Sources */,
 				AAD6F35229CCC2D3002876BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
